@@ -3,105 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Site artistique de Ismael Ben Othman - peintre autodidacte tunisien">
+  <meta name="description" content="Découvrez les œuvres du peintre tunisien Ismael Ben Othman. Galerie de peinture à l'huile, biographie artistique, et contact direct.">
+  <meta name="keywords" content="Ismael Ben Othman, art, peinture à l'huile, galerie d'art, artiste tunisien, peintre autodidacte, art contemporain">
+  <meta name="author" content="Ismael Ben Othman">
+  <meta property="og:title" content="Ismael Ben Othman - Artiste peintre tunisien" />
+  <meta property="og:description" content="Galerie de peinture à l'huile de l'artiste tunisien Ismael Ben Othman. Découvrez ses œuvres uniques." />
+  <meta property="og:image" content="FB_IMG_1716387860433.jpg" />
+  <meta property="og:url" content="https://ismailbenothman17-code.github.io/ismaelbenothman.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://ismailbenothman17-code.github.io/ismaelbenothman.github.io/" />
+  <link rel="icon" type="image/png" href="favicon.png">
   <title>Ismael Ben Othman - Artiste peintre</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #111;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      text-align: center;
-      margin: 1rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #444;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #eee;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfdfd; color: #222; }
+    header, nav, section, footer { padding: 20px; text-align: center; }
+    header { background: #333; color: #fff; }
+    nav { background: #f4f4f4; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 10px; }
+    .gallery img { width: 300px; height: auto; border-radius: 10px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
+    form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { padding: 10px; background: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+    .success-message { color: green; display: none; margin-top: 10px; }
+    footer { background: #333; color: #fff; padding: 15px 0; }
+    .share button { margin: 5px; padding: 8px 12px; cursor: pointer; }
   </style>
 </head>
 <body>
   <header>
     <h1>Ismael Ben Othman</h1>
-    <p>Peintre autodidacte - Artiste tunisien</p>
+    <p>Peintre autodidacte tunisien – Passionné par la peinture à l'huile</p>
   </header>
-
   <nav>
-    <a href="#bio">Biographie</a>
     <a href="#galerie">Galerie</a>
+    <a href="#biographie">Biographie</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="bio">
-    <h2>Biographie</h2>
-    <p>Je suis Ismael Ben Othman, peintre autodidacte né le 1er mai 1982 en Tunisie. Depuis mon jeune âge, je pratique l'art plastique avec passion. Je suis membre de l'Union des artistes plasticiens tunisiens et détenteur d'une carte professionnelle. Mon parcours artistique comprend plusieurs expositions individuelles et collectives à travers la Tunisie.</p>
+  <section id="biographie">
+    <div class="biography">
+      <h2>À propos de l'artiste</h2>
+      <p>Ismael Ben Othman, né le 1er mai 1982, est un artiste peintre autodidacte tunisien passionné depuis l’enfance par l’art plastique. Membre actif de l’Union des artistes plasticiens tunisiens, il a participé à de nombreuses expositions individuelles et collectives. À travers ses toiles à l'huile, il explore l’émotion, le symbolisme, et l’âme humaine.</p>
+    </div>
   </section>
 
   <section id="galerie">
-    <h2>Galerie</h2>
+    <h2>Galerie de peintures</h2>
     <div class="gallery">
-      <img src="FB_IMG_1716387860433.jpg" alt="Œuvre">
-      <img src="IMG_20210518_123826.jpg" alt="Œuvre">
-      <img src="IMG_20210827_001306.jpg" alt="Œuvre">
-      <img src="IMG_20211228_123438.jpg" alt="Œuvre">
-      <img src="IMG_20211230_160828.jpg" alt="Œuvre">
-      <img src="IMG_20220106_084503.jpg" alt="Œuvre">
-      <img src="IMG_20220401_223907.jpg" alt="Œuvre">
-      <img src="IMG_20220414_011713.jpg" alt="Œuvre">
-      <img src="IMG_20220414_023212.jpg" alt="Œuvre">
-      <img src="IMG_20220414_233716.jpg" alt="Œuvre">
-      <img src="IMG_20220418_203245.jpg" alt="Œuvre">
-      <img src="IMG_20220419_232255.jpg" alt="Œuvre">
-      <img src="IMG_20220425_143208.jpg" alt="Œuvre">
-      <img src="IMG_20220513_105845.jpg" alt="Œuvre">
-      <img src="IMG_20220720_205116.jpg" alt="Œuvre">
-      <img src="IMG_20220721_163743.jpg" alt="Œuvre">
-      <img src="IMG_20220910_001901.jpg" alt="Œuvre">
-      <img src="IMG_20220925_212716.jpg" alt="Œuvre">
-      <img src="IMG_20230624_031646.jpg" alt="Œuvre">
-      <img src="IMG_20241015_203919.jpg" alt="Œuvre">
-      <img src="IMG_20241031_000511.jpg" alt="Œuvre">
-      <img src="IMG_20241121_220914.jpg" alt="Œuvre">
+      <img src="FB_IMG_1716387860433.jpg" alt="Œuvre 1">
+      <img src="IMG_20210518_123826.jpg" alt="Œuvre 2">
+      <img src="IMG_20210827_001306.jpg" alt="Œuvre 3">
+      <img src="IMG_20211228_123438.jpg" alt="Œuvre 4">
+      <img src="IMG_20211230_160828.jpg" alt="Œuvre 5">
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Vous pouvez me contacter par e-mail à : <strong>ismael.artiste@example.com</strong></p>
+    <form onsubmit="event.preventDefault(); document.querySelector('.success-message').style.display='block'; this.reset();">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre e-mail" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+      <div class="success-message">Merci pour votre message !</div>
+    </form>
+    <div class="email-direct">
+      <p>Ou écrivez-moi directement à : <a href="mailto:ismaelbenothman.art@gmail.com">ismaelbenothman.art@gmail.com</a></p>
+      <p>Ou appelez-moi au : <a href="tel:+21654427672">+216 54 427 672</a></p>
+    </div>
   </section>
 
+  <section id="reseaux">
+    <h2>Suivez-moi</h2>
+    <p>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </p>
+  </section>
+
+  <div class="share">
+    <p>Partager ce site :</p>
+    <button onclick="navigator.clipboard.writeText(window.location.href)">Copier le lien</button>
+    <button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank')">Partager sur Facebook</button>
+  </div>
+
   <footer>
-    &copy; 2025 Ismael Ben Othman - Tous droits réservés
+    &copy; 2025 Ismael Ben Othman – Tous droits réservés.
   </footer>
 </body>
 </html>
